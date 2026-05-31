@@ -2,9 +2,14 @@ package org.taller;
 
 public class Vehiculo {
     public void mover() {
-        System.out.println("El vehículo se mueve");
+        System.out.println("El vehículo se está moviendo");
     }
 }
+
+
+
+//------------------------------------------------------------------------------------------------//
+/*
 
     class Moto extends Vehiculo {
     @Override
@@ -13,6 +18,7 @@ public class Vehiculo {
         System.out.println("El vehículo se mueve");
     }
 }
+*/
 
 //Ejercicio3: Sobrescribir un método sin cambiar el comportamiento
 
@@ -23,3 +29,5 @@ no aporta ningún valor. Si la subclase no necesita especializar el comportamien
 no debe sobrescribir el método. Hacerlo genera código redundante, confunde a quienes
 leen el código (esperan un comportamiento diferente) y dificulta el mantenimiento.
 */
+
+//------------------------------------------------------------------------------------------------//
